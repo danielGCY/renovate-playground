@@ -3,7 +3,7 @@
   "extends": ["config:base"],
   "commitBody": "[skip ci]",
   "dependencyDashboard": true,
-  "enabledManagers": ["github-actions"],
+  "enabledManagers": ["github-actions", "pip_requirements"],
   "packageRules": [
     {
       "description": "GitHub Actions",
