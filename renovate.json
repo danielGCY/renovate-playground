@@ -3,7 +3,7 @@
   "extends": ["config:base"],
   "commitBody": "[skip ci]",
   "dependencyDashboard": true,
-  "enabledManagers": ["github-actions", "pip_requirements"],
+  "enabledManagers": ["github-actions", "pip_requirements", "terraform"],
   "ignoreUnstable": true,
   "packageRules": [
     {
