@@ -22,5 +22,6 @@
       "addLabels": ["renovate/terraform"]
     }
   ],
-  "prHourlyLimit": 0
+  "prHourlyLimit": 0,
+  "rebaseWhen": "behind-base-branch"
 }
