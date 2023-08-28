@@ -4,6 +4,7 @@
   "commitBody": "[skip ci]",
   "dependencyDashboard": true,
   "enabledManagers": ["github-actions", "pip_requirements"],
+  "ignoreUnstable": true,
   "packageRules": [
     {
       "description": "GitHub Actions",
