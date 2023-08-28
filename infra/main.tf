@@ -1,3 +1,9 @@
+resource "random_string" "testing" {
+  length  = 16
+  special = false
+  upper   = false
+}
+
 resource "random_string" "bucket_suffix" {
   length  = 16
   special = false
