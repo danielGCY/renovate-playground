@@ -15,6 +15,11 @@
       "description": "Python packages",
       "matchManagers": "pip_requirements",
       "addLabels": ["renovate/python-packages"]
+    },
+    {
+      "description": "Terraform",
+      "matchManagers": ["terraform"],
+      "addLabels": ["renovate/terraform"]
     }
   ],
   "prHourlyLimit": 0
