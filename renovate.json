@@ -23,7 +23,9 @@
       "addLabels": ["renovate/python-packages"],
       "excludePackageNames": ["numpy"],
       "excludePackagePatterns": ["^requests"],
-      "registryUrls": ["https://nexusrepo.ffma.local/pypi-group/simple"]
+      "registryUrls": [
+        "https://nexusrepo.ffma.local/repository/pypi-group/simple"
+      ]
     },
     {
       "description": "Terraform",
