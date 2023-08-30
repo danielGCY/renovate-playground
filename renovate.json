@@ -22,7 +22,7 @@
       "matchManagers": "pip_requirements",
       "addLabels": ["renovate/python-packages"],
       "excludePackageNames": ["numpy"],
-      "excludePackagePatterns": ["^numpy"]
+      "excludePackagePatterns": ["^requests"]
     },
     {
       "description": "Terraform",
