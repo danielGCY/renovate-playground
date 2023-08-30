@@ -3,7 +3,12 @@
   "extends": ["config:base"],
   "commitBody": "[skip ci]",
   "dependencyDashboard": true,
-  "enabledManagers": ["github-actions", "pip_requirements", "terraform"],
+  "enabledManagers": [
+    "github-actions",
+    "pip_requirements",
+    "terraform",
+    "pre-commit"
+  ],
   "ignoreUnstable": true,
   "packageRules": [
     {
@@ -20,6 +25,11 @@
       "description": "Terraform",
       "matchManagers": ["terraform"],
       "addLabels": ["renovate/terraform"]
+    },
+    {
+      "description": "Pre-commit",
+      "matchManagers": ["pre-commit"],
+      "addLabels": ["renovate/pre-commit"]
     }
   ],
   "prHourlyLimit": 0,
