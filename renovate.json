@@ -42,6 +42,6 @@
   },
   "prHourlyLimit": 0,
   "rebaseWhen": "behind-base-branch",
-  "schedule": ["30 13 * * *"],
-  "timezone": "AEST"
+  "schedule": ["* 14 * * *"],
+  "timezone": "Australia/Victoria"
 }
