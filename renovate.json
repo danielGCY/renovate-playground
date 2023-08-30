@@ -43,6 +43,7 @@
   },
   "prCreation": "not-pending",
   "prHourlyLimit": 0,
+  "prNotPendingHours": 1,
   "rebaseWhen": "behind-base-branch",
   "schedule": ["* 14 * * *"],
   "timezone": "Australia/Victoria"
