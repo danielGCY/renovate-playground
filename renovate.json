@@ -20,7 +20,8 @@
     {
       "description": "Python packages",
       "matchManagers": "pip_requirements",
-      "addLabels": ["renovate/python-packages"]
+      "addLabels": ["renovate/python-packages"],
+      "excludePackageNames": ["numpy"]
     },
     {
       "description": "Terraform",
