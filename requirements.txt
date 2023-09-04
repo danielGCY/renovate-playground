@@ -1,5 +1,5 @@
 numpy==1.22.0
 # jupyter-server==2.7.1
 pandas==2.0.0
-requests==2.17.0
+requests==2.31.0
 ffma-dash-components==0.2
